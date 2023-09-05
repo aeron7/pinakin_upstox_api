@@ -3,7 +3,10 @@ import json
 import logging
 from websocket import create_connection
 
-#This function is depreciated and does not work right now. I would not have shared it if it would've worked. Right?
+# Deprecated function (No longer functional)
+# This code was part of the Pinakin System of Unofficed, a multibroker terminal based on APIs.
+# Pinakin included automated strategies, clusterization modules, and a risk management system.
+
 
 def upstoxlogin(client_id, client_pass, client_pin, forcedlogin="0"):
     method = "v1"
