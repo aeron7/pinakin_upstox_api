@@ -41,7 +41,7 @@ def upstox_login(creds):
       # Request was successful
       print("Access Token:", response.json().get('access_token'))
       creds["auth"]["access_token"]=response.json().get('access_token')
-      creds["auth"]["headers"]=headers = {
+      creds["api"]["headers"]=headers = {
                                         'accept': 'application/json',
                                         'Api-Version': '2.0',
                                         'Authorization': f'Bearer {creds["auth"]["access_token"]}'

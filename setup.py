@@ -6,9 +6,9 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name = 'pinakin',
     packages=setuptools.find_packages(),
-    version = '0.1',
+    version = '0.2',
     include_package_data=True,
-    description = 'Unofficial Python Wrapper library for Upstox',
+    description = 'Unofficial Python Wrapper library for Multiple Indian Brokers',
     long_description=long_description,
     long_description_content_type="text/markdown",  author = 'Aeron7',
     author_email = 'dexter@unofficed.com',
