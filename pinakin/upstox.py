@@ -1,4 +1,4 @@
-from ravan import *
+from pinakin.ravan import *
 
 def upstox_login(creds):
   client_id = creds["auth"]["client_id"]
